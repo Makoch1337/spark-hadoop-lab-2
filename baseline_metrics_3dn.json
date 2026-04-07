@@ -1,0 +1,11 @@
+{
+  "app": "baseline",
+  "input": "hdfs://localhost:9000/input/online_retail.csv",
+  "output": "./output_baseline_3dn",
+  "execution_time_sec": 8.406,
+  "rows_after_cleanup": 36222,
+  "country_groups": 23,
+  "stockcode_groups": 2742,
+  "customer_groups": 897,
+  "timestamp": "2026-04-07 23:34:35"
+}
