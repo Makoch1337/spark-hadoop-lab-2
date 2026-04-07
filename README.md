@@ -42,7 +42,7 @@ amount = Quantity * UnitPrice
 - `optimized_metrics.json` — метрики эксперимента 1 DataNode + optimized;
 - `baseline_metrics_3dn.json` — метрики эксперимента 3 DataNode + baseline;
 - `optimized_metrics_3dn.json` — метрики эксперимента 3 DataNode + optimized;
-- `execution_times.png` — график времени выполнения;
+- `execution_times` — график времени выполнения;
 
 ## Конфигурации эксперимента
 Были проведены четыре эксперимента:
@@ -78,7 +78,7 @@ amount = Quantity * UnitPrice
 ![График](execution_times.png)
 
 ## Вывод
-В ходе лабораторной работы были успешно выполнены все основные этапы:
+В ходе лабораторной работы были успешно выполнено:
 - развернут Hadoop/HDFS в Docker под WSL;
 - подготовлен и загружен датасет в HDFS;
 - реализованы две версии Spark-приложения;
